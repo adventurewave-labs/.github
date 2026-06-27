@@ -73,6 +73,6 @@ Rust · Shell · Python · Claude Code · MCP · Kubernetes · Terraform
 **Built & Presented by Adventure Wave Labs**
 
 Built by [Marcus Patman](https://github.com/marcuspat) — Principal Agentic Engineer  
-[adventurewave.io](https://adventurewave.io) · LATAM AI solutions at [creandotumatrix-labs](https://github.com/creandotumatrix-labs)
+LATAM AI solutions at [creandotumatrix-labs](https://github.com/creandotumatrix-labs)
 
 </div>
