@@ -21,7 +21,7 @@
 
 | Repo | What it is |
 |---|---|
-| [turbo-flow](https://github.com/marcuspat/turbo-flow) ⭐ 160+ | 60+ AI subagents, Claude Code, SPARC methodology — production in <5 min |
+| [turbo-flow](https://github.com/marcuspat/turbo-flow) ⭐ 160+ | 60+ AI subagents, Claude Code, Ruflo orchestration — production in <5 min |
 
 ### Developer Tooling
 
@@ -64,7 +64,7 @@ Rust · Shell · Python · Claude Code · MCP · Kubernetes · Terraform
 
 ## Crates.io
 
-8 published crates · 11,000+ downloads
+7 published crates · 11,000+ downloads
 
 ---
 
