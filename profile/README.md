@@ -21,7 +21,7 @@
 
 | Repo | What it is |
 |---|---|
-| [turbo-flow](https://github.com/marcuspat/turbo-flow) ⭐ 160+ | 600+ AI subagents, Claude Code, SPARC methodology — production in <5 min |
+| [turbo-flow](https://github.com/marcuspat/turbo-flow) ⭐ 160+ | 60+ AI subagents, Claude Code, SPARC methodology — production in <5 min |
 
 ### Developer Tooling
 
