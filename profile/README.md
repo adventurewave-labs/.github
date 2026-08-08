@@ -24,10 +24,8 @@
 | [secret-scan](https://github.com/adventurewave-labs/secret-scan) | Rust | Regex-based secret scanner for CI pipelines |
 | [codescope](https://github.com/adventurewave-labs/codescope) | Rust | Single-binary code intelligence engine for AI coding agents — tree-sitter, MCP, CLI |
 | [loopgen-rs](https://github.com/adventurewave-labs/loopgen-rs) | Rust | Agentic loop runner for Claude Code |
-| [turbo-flow-wizard](https://github.com/adventurewave-labs/turbo-flow-wizard) | Shell | Guided installer for turbo-flow environments |
 | [NRVM](https://github.com/adventurewave-labs/NRVM) | Rust | Node.js version manager in Rust — async operations, cross-platform |
 | [preflight-integration-tester](https://github.com/adventurewave-labs/preflight-integration-tester) | Python | Pre-deploy integration test harness |
-| [CFV](https://github.com/adventurewave-labs/CFV) | Python | Cognitive Fabric Visualizer — agent reasoning graph explorer |
 
 ### Lab / Demos
 
