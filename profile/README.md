@@ -17,12 +17,6 @@
 
 ## What We Build
 
-### Flagship (at [`marcuspat`](https://github.com/marcuspat))
-
-| Repo | What it is |
-|---|---|
-| [turbo-flow](https://github.com/marcuspat/turbo-flow) ⭐ 160+ | 60+ AI subagents, Claude Code, Ruflo orchestration — production in <5 min |
-
 ### Developer Tooling
 
 | Repo | Lang | What it does |
