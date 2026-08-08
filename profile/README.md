@@ -25,11 +25,9 @@
 | [codescope](https://github.com/adventurewave-labs/codescope) | Rust | Single-binary code intelligence engine for AI coding agents — tree-sitter, MCP, CLI |
 | [loopgen-rs](https://github.com/adventurewave-labs/loopgen-rs) | Rust | Agentic loop runner for Claude Code |
 | [turbo-flow-wizard](https://github.com/adventurewave-labs/turbo-flow-wizard) | Shell | Guided installer for turbo-flow environments |
-| [EchoFlow](https://github.com/adventurewave-labs/EchoFlow) | Rust | High-performance WebSocket relay server |
-| [NRVM](https://github.com/adventurewave-labs/NRVM) | Rust | Node/Rust version manager — unified toolchain control |
-| [Requester](https://github.com/adventurewave-labs/Requester) | Rust | Ergonomic HTTP client for agentic workflows |
-| [preflight-integration-tester](https://github.com/adventurewave-labs/preflight-integration-tester) | — | Pre-deploy integration test harness |
-| [CFV](https://github.com/adventurewave-labs/CFV) | — | Cognitive Fabric Visualizer — agent reasoning graph explorer |
+| [NRVM](https://github.com/adventurewave-labs/NRVM) | Rust | Node.js version manager in Rust — async operations, cross-platform |
+| [preflight-integration-tester](https://github.com/adventurewave-labs/preflight-integration-tester) | Python | Pre-deploy integration test harness |
+| [CFV](https://github.com/adventurewave-labs/CFV) | Python | Cognitive Fabric Visualizer — agent reasoning graph explorer |
 
 ### Lab / Demos
 
@@ -37,9 +35,8 @@ Experiments, proofs of concept, and agentic demos. Production-grade code, not pr
 
 | Repo | What it explores |
 |---|---|
+| [agentic-powered-golden-path-demo](https://github.com/adventurewave-labs/agentic-powered-golden-path-demo) | NL → GitOps deployment via golden-path workflows (ArgoCD + OpenRouter) |
 | [agentic-dashboard](https://github.com/adventurewave-labs/agentic-dashboard) | Real-time observability dashboard for multi-agent systems |
-| [agentic-cloud-archiver-cost-demo](https://github.com/adventurewave-labs/agentic-cloud-archiver-cost-demo) | Autonomous cloud cost archival agent |
-| [agentic-self-healing-demo](https://github.com/adventurewave-labs/agentic-self-healing-demo) | Self-healing infrastructure via agentic control loops |
 | [AI-Kubernetes-API-Generator-Demo](https://github.com/adventurewave-labs/AI-Kubernetes-API-Generator-Demo) | NL → Kubernetes API generation |
 | [ai-knowledge-assist](https://github.com/adventurewave-labs/ai-knowledge-assist) | Knowledge retrieval layer for AI assistants |
 | [AWASD](https://github.com/adventurewave-labs/AWASD) | Agentic workflow automation with structured data |
@@ -53,12 +50,6 @@ Experiments, proofs of concept, and agentic demos. Production-grade code, not pr
 ## Stack
 
 Rust · Shell · Python · Claude Code · MCP · Kubernetes · Terraform
-
----
-
-## Crates.io
-
-7 published crates · 11,000+ downloads
 
 ---
 
