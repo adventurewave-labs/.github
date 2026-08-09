@@ -36,7 +36,6 @@ Experiments, proofs of concept, and agentic demos. Production-grade code, not pr
 | [agentic-dashboard](https://github.com/adventurewave-labs/agentic-dashboard) | Real-time observability dashboard for multi-agent systems |
 | [AI-Kubernetes-API-Generator-Demo](https://github.com/adventurewave-labs/AI-Kubernetes-API-Generator-Demo) | NL → Kubernetes API generation |
 | [ai-knowledge-assist](https://github.com/adventurewave-labs/ai-knowledge-assist) | Knowledge retrieval layer for AI assistants |
-| [AWASD](https://github.com/adventurewave-labs/AWASD) | Agentic workflow automation with structured data |
 | [GUI-LOP](https://github.com/adventurewave-labs/GUI-LOP) | GUI-driven local orchestration platform |
 | [ROSAN](https://github.com/adventurewave-labs/ROSAN) | Resilient orchestration for agentic networks |
 | [NOIP](https://github.com/adventurewave-labs/NOIP) | Network-oriented infrastructure provisioner |
