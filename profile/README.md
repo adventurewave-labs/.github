@@ -33,14 +33,7 @@ Experiments, proofs of concept, and agentic demos. Production-grade code, not pr
 | Repo | What it explores |
 |---|---|
 | [agentic-powered-golden-path-demo](https://github.com/adventurewave-labs/agentic-powered-golden-path-demo) | NL → GitOps deployment via golden-path workflows (ArgoCD + OpenRouter) |
-| [agentic-dashboard](https://github.com/adventurewave-labs/agentic-dashboard) | Real-time observability dashboard for multi-agent systems |
 | [AI-Kubernetes-API-Generator-Demo](https://github.com/adventurewave-labs/AI-Kubernetes-API-Generator-Demo) | NL → Kubernetes API generation |
-| [ai-knowledge-assist](https://github.com/adventurewave-labs/ai-knowledge-assist) | Knowledge retrieval layer for AI assistants |
-| [GUI-LOP](https://github.com/adventurewave-labs/GUI-LOP) | GUI-driven local orchestration platform |
-| [ROSAN](https://github.com/adventurewave-labs/ROSAN) | Resilient orchestration for agentic networks |
-| [NOIP](https://github.com/adventurewave-labs/NOIP) | Network-oriented infrastructure provisioner |
-| [HASEB](https://github.com/adventurewave-labs/HASEB) | Hierarchical agentic state execution backbone |
-
 ---
 
 ## Stack
