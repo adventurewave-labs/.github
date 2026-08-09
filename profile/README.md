@@ -24,7 +24,12 @@
 | [secret-scan](https://github.com/adventurewave-labs/secret-scan) | Rust | Regex-based secret scanner for CI pipelines |
 | [codescope](https://github.com/adventurewave-labs/codescope) | Rust | Single-binary code intelligence engine for AI coding agents — tree-sitter, MCP, CLI |
 | [loopgen-rs](https://github.com/adventurewave-labs/loopgen-rs) | Rust | Agentic loop runner for Claude Code |
-| [preflight-integration-tester](https://github.com/adventurewave-labs/preflight-integration-tester) | Python | Pre-deploy integration test harness |
+
+#### In motion
+
+| [<img src="https://raw.githubusercontent.com/adventurewave-labs/codescope/main/demo.gif" width="420" alt="codescope indexing itself and answering blast-radius queries">](https://github.com/adventurewave-labs/codescope) | [<img src="https://raw.githubusercontent.com/adventurewave-labs/secret-scan/main/docs/secretscan-demo.gif" width="420" alt="secretscan finding 6 planted secrets in a demo repo">](https://github.com/adventurewave-labs/secret-scan) |
+|:---:|:---:|
+| *codescope — code intelligence for agents* | *secret-scan — CI secret scanner* |
 
 ### Lab / Demos
 
