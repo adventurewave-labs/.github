@@ -9,8 +9,7 @@
 
 **We build open-source developer tooling for the Claude and agentic AI ecosystem.**
 
-*The lab that powers [turbo-flow](https://github.com/marcuspat/turbo-flow) — the autonomous multi-agent dev environment used by engineers who ship like a team of one.*
-
+*Founded by the creator of [turbo-flow](https://github.com/marcuspat/turbo-flow) — the autonomous multi-agent dev environment used by engineers who ship like a team of one.*
 </div>
 
 ---
