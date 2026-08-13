@@ -27,10 +27,10 @@
 
 #### In motion
 
-| [<img src="https://raw.githubusercontent.com/adventurewave-labs/codescope/main/demo.gif" width="420" alt="codescope indexing itself and answering blast-radius queries">](https://github.com/adventurewave-labs/codescope) | [<img src="https://raw.githubusercontent.com/adventurewave-labs/secret-scan/main/docs/secretscan-demo.gif" width="420" alt="secretscan finding 6 planted secrets in a demo repo">](https://github.com/adventurewave-labs/secret-scan) |
+| [<img src="https://raw.githubusercontent.com/adventurewave-labs/codescope/main/demo.gif" width="420" height="340" alt="codescope indexing itself and answering blast-radius queries">](https://github.com/adventurewave-labs/codescope) | [<img src="https://raw.githubusercontent.com/adventurewave-labs/secret-scan/main/docs/secretscan-demo.gif" width="420" height="340" alt="secretscan finding 6 planted secrets in a demo repo">](https://github.com/adventurewave-labs/secret-scan) |
 |:---:|:---:|
 | *codescope — code intelligence for agents* | *secret-scan — CI secret scanner* |
-| [<img src="https://raw.githubusercontent.com/adventurewave-labs/loopgen-rs/main/demo.gif" width="420" alt="loopgen rendering an agentic loop harness with --dry-run">](https://github.com/adventurewave-labs/loopgen-rs) | [<img src="https://raw.githubusercontent.com/adventurewave-labs/preflight-integration-tester/main/demo.gif" width="420" alt="preflight-integration-tester running a real readiness diagnostic — 97% GO, 3 middleware gaps found">](https://github.com/adventurewave-labs/preflight-integration-tester) |
+| [<img src="https://raw.githubusercontent.com/adventurewave-labs/loopgen-rs/main/demo.gif" width="420" height="340" alt="loopgen rendering an agentic loop harness with --dry-run">](https://github.com/adventurewave-labs/loopgen-rs) | [<img src="https://raw.githubusercontent.com/adventurewave-labs/preflight-integration-tester/main/demo.gif" width="420" height="340" alt="preflight-integration-tester running a real readiness diagnostic — 97% GO, 3 middleware gaps found">](https://github.com/adventurewave-labs/preflight-integration-tester) |
 | *loopgen-rs — agentic loop runner* | *preflight-integration-tester — AI readiness diagnostic* |
 
 ### Lab / Demos
