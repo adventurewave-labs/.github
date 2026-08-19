@@ -20,6 +20,7 @@
 
 | Repo | Lang | What it does |
 |---|---|---|
+| [cloop](https://github.com/adventurewave-labs/cloop) | Rust | Agentic loops for Claude Code — zero-dependency CLI that wraps `claude --print` in a configurable loop until tests pass, a marker appears, or N iterations |
 | [secret-scan](https://github.com/adventurewave-labs/secret-scan) | Rust | Regex-based secret scanner for CI pipelines |
 | [codescope](https://github.com/adventurewave-labs/codescope) | Rust | Single-binary code intelligence engine for AI coding agents — tree-sitter, MCP, CLI |
 | [loopgen-rs](https://github.com/adventurewave-labs/loopgen-rs) | Rust | Agentic loop runner for Claude Code |
@@ -27,11 +28,13 @@
 
 #### In motion
 
-| [<img src="https://raw.githubusercontent.com/adventurewave-labs/codescope/main/demo.gif" width="420" height="340" alt="codescope indexing itself and answering blast-radius queries">](https://github.com/adventurewave-labs/codescope) | [<img src="https://raw.githubusercontent.com/adventurewave-labs/secret-scan/main/docs/secretscan-demo.gif" width="420" height="340" alt="secretscan finding 6 planted secrets in a demo repo">](https://github.com/adventurewave-labs/secret-scan) |
+| [<img src="https://raw.githubusercontent.com/adventurewave-labs/cloop/main/cloop-demo.gif" width="420" height="340" alt="cloop wizard creating a fix-tests loop, then listing and showing it">](https://github.com/adventurewave-labs/cloop) | [<img src="https://raw.githubusercontent.com/adventurewave-labs/codescope/main/demo.gif" width="420" height="340" alt="codescope indexing itself and answering blast-radius queries">](https://github.com/adventurewave-labs/codescope) |
 |:---:|:---:|
-| *codescope — code intelligence for agents* | *secret-scan — CI secret scanner* |
-| [<img src="https://raw.githubusercontent.com/adventurewave-labs/loopgen-rs/main/demo.gif" width="420" height="340" alt="loopgen rendering an agentic loop harness with --dry-run">](https://github.com/adventurewave-labs/loopgen-rs) | [<img src="https://raw.githubusercontent.com/adventurewave-labs/preflight-integration-tester/main/demo.gif" width="420" height="340" alt="preflight-integration-tester running a real readiness diagnostic — 97% GO, 3 middleware gaps found">](https://github.com/adventurewave-labs/preflight-integration-tester) |
-| *loopgen-rs — agentic loop runner* | *preflight-integration-tester — AI readiness diagnostic* |
+| *cloop — agentic loops for Claude Code* | *codescope — code intelligence for agents* |
+| [<img src="https://raw.githubusercontent.com/adventurewave-labs/secret-scan/main/docs/secretscan-demo.gif" width="420" height="340" alt="secretscan finding 6 planted secrets in a demo repo">](https://github.com/adventurewave-labs/secret-scan) | [<img src="https://raw.githubusercontent.com/adventurewave-labs/loopgen-rs/main/demo.gif" width="420" height="340" alt="loopgen rendering an agentic loop harness with --dry-run">](https://github.com/adventurewave-labs/loopgen-rs) |
+| *secret-scan — CI secret scanner* | *loopgen-rs — agentic loop runner* |
+| [<img src="https://raw.githubusercontent.com/adventurewave-labs/preflight-integration-tester/main/demo.gif" width="420" height="340" alt="preflight-integration-tester running a real readiness diagnostic — 97% GO, 3 middleware gaps found">](https://github.com/adventurewave-labs/preflight-integration-tester) | |
+| *preflight-integration-tester — AI readiness diagnostic* | |
 
 ### Lab / Demos
 
