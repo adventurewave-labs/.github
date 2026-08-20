@@ -65,7 +65,7 @@ Autonomous agents and reliability tooling for Ansible-driven infrastructure. The
 
 ### Lab / Demos
 
-Experiments, proofs of concept, and agentic demos. Production-grade code, not production-grade scope.
+Experiments, proofs of concept, and agentic demos.
 
 | Repo | What it explores |
 |---|---|
