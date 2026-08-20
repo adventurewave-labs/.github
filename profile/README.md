@@ -75,6 +75,8 @@ Yes — `secret-scan` and `preflight-integration-tester` run in real CI/CD and p
 
 Rust · Shell · Python · Claude Code · MCP · Kubernetes · Terraform
 
+Founder-published crates on [crates.io](https://crates.io/users/marcuspat) — 11,000+ total downloads: [secretscan](https://crates.io/crates/secretscan) · [cargo-forge](https://crates.io/crates/cargo-forge) · [netrain](https://crates.io/crates/netrain) · [cargocrypt](https://crates.io/crates/cargocrypt) · [k8s-netinspect](https://crates.io/crates/k8s-netinspect) · [file-hasher](https://crates.io/crates/file-hasher)
+
 ---
 
 <div align="center">
@@ -87,4 +89,3 @@ LATAM AI solutions at [creandotumatrix-labs](https://github.com/creandotumatrix-
 📧 marcus@adventureonthewave.com · [adventurewavelabs.space](https://adventurewavelabs.space) · [LinkedIn](https://linkedin.com/in/marcuspatman) · [X @marcuspat](https://x.com/marcuspat) · [YouTube](https://youtube.com/@marcuspatmanagentics)
 
 </div>
-<!-- cache-refresh 2026-08-20 -->
