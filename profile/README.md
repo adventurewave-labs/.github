@@ -71,7 +71,7 @@ Experiments, proofs of concept, and agentic demos. Production-grade code, not pr
 |---|---|
 | [agentic-powered-golden-path-demo](https://github.com/adventurewave-labs/agentic-powered-golden-path-demo) | NL → GitOps deployment via golden-path workflows (ArgoCD + OpenRouter) |
 | [AI-Kubernetes-API-Generator-Demo](https://github.com/adventurewave-labs/AI-Kubernetes-API-Generator-Demo) | NL → Kubernetes API generation |
-| [agentic-devops-extravaganza](https://github.com/adventurewave-labs/agentic-devops-extravaganza) | Working demo of K8sGPT and Robusta running against a real Kubernetes API + GLM-4.5 LLM |
+| [agentic-devops-extravaganza](https://agentic-devops-extravaganza.vercel.app/) | Working demo of K8sGPT and Robusta running against a real Kubernetes API + GLM-4.5 LLM |
 
 ---
 
