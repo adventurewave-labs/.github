@@ -30,6 +30,14 @@ Adventure Wave Labs (AWL) is the open-source lab behind [Turbo-Flow](https://git
 
 Autonomous agents and reliability tooling for Ansible-driven infrastructure. These projects sit between your CI/CD pipeline and your fleet — they watch, diagnose, and heal routine failures without human intervention.
 
+<p align="center">
+  <a href="https://github.com/adventurewave-labs/ansible-heal-agent">
+    <img src="https://raw.githubusercontent.com/adventurewave-labs/ansible-heal-agent/main/docs/demo.gif" alt="ansible-heal-agent demo — heals a broken baseline in 7 seconds" width="640">
+  </a>
+</p>
+
+<p align="center"><em>ansible-heal-agent heals 3 seeded failures (stale hostname, removed <code>apt_key</code>, undefined <code>nginx_port</code>) and lands 3 conventional commits in 7 seconds.</em></p>
+
 | Repo | Lang | What it does |
 |---|---|---|
 | [ansible-heal-agent](https://github.com/adventurewave-labs/ansible-heal-agent) | Python | Autonomous agent that scans Ansible logs, diagnoses routine failures (stale hostname, removed module, undefined variable), patches the playbook / inventory / vars, commits via conventional commits, and re-runs the pipeline. LLM-first (GLM-4-Plus via `z-ai-web-dev-sdk`) with a deterministic rule-based fallback, YAML validation before write, and a full Markdown transcript for human audit. `make demo` heals a broken baseline end-to-end in under 60 seconds. |
