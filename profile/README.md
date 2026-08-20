@@ -56,6 +56,14 @@ Experiments, proofs of concept, and agentic demos. Production-grade code, not pr
 | [agentic-powered-golden-path-demo](https://github.com/adventurewave-labs/agentic-powered-golden-path-demo) | NL → GitOps deployment via golden-path workflows (ArgoCD + OpenRouter) |
 | [AI-Kubernetes-API-Generator-Demo](https://github.com/adventurewave-labs/AI-Kubernetes-API-Generator-Demo) | NL → Kubernetes API generation |
 
+### DevOps / Infrastructure
+
+Autonomous agents and reliability tooling for Ansible-driven infrastructure. These projects sit between your CI/CD pipeline and your fleet — they watch, diagnose, and heal routine failures without human intervention.
+
+| Repo | Lang | What it does |
+|---|---|---|
+| [ansible-heal-agent](https://github.com/adventurewave-labs/ansible-heal-agent) | Python | Autonomous agent that scans Ansible logs, diagnoses routine failures (stale hostname, removed module, undefined variable), patches the playbook / inventory / vars, commits via conventional commits, and re-runs the pipeline. LLM-first (GLM-4-Plus via `z-ai-web-dev-sdk`) with a deterministic rule-based fallback, YAML validation before write, and a full Markdown transcript for human audit. `make demo` heals a broken baseline end-to-end in under 60 seconds. |
+
 ---
 
 ## FAQ
