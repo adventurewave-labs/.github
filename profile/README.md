@@ -10,9 +10,19 @@
 **We build open-source developer tooling for the Claude and agentic AI ecosystem.**
 
 *Founded by the creator of [turbo-flow](https://github.com/marcuspat/turbo-flow) — the autonomous multi-agent dev environment used by engineers who ship like a team of one.*
+
+[![Website](https://img.shields.io/badge/Website-adventurewavelabs.space-2b2b2b?style=flat-square)](https://adventurewavelabs.space)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-2b2b2b?style=flat-square&logo=linkedin&logoColor=0A66C2)](https://linkedin.com/in/marcuspatman)
+[![YouTube](https://img.shields.io/badge/-YouTube-2b2b2b?style=flat-square&logo=youtube&logoColor=FF0000)](https://youtube.com/@marcuspatmanagentics)
+[![X](https://img.shields.io/badge/-X-2b2b2b?style=flat-square&logo=x&logoColor=white)](https://x.com/marcuspat)
+
 </div>
 
 ---
+
+## What is Adventure Wave Labs?
+
+Adventure Wave Labs (AWL) is the open-source lab behind [Turbo-Flow](https://github.com/marcuspat/turbo-flow) and its supporting toolchain — CLIs, agentic loop runners, and code-intelligence engines that let a single engineer operate a full agentic development workflow on top of Claude Code. Everything here is Rust-first, MCP-native, and built to run in real terminals against real codebases — not demos.
 
 ## What We Build
 
@@ -25,6 +35,7 @@
 | [codescope](https://github.com/adventurewave-labs/codescope) | Rust | Single-binary code intelligence engine for AI coding agents — tree-sitter, MCP, CLI |
 | [loopgen-rs](https://github.com/adventurewave-labs/loopgen-rs) | Rust | Agentic loop runner for Claude Code |
 | [preflight-integration-tester](https://github.com/adventurewave-labs/preflight-integration-tester) | Python | Pre-deploy integration test harness |
+| [turbo-flow-wizard](https://github.com/adventurewave-labs/turbo-flow-wizard) | Shell | Guided setup wizard for turbo-flow — interactive generator for project-specific CLAUDE.md configs |
 
 #### In motion
 
@@ -44,6 +55,20 @@ Experiments, proofs of concept, and agentic demos. Production-grade code, not pr
 |---|---|
 | [agentic-powered-golden-path-demo](https://github.com/adventurewave-labs/agentic-powered-golden-path-demo) | NL → GitOps deployment via golden-path workflows (ArgoCD + OpenRouter) |
 | [AI-Kubernetes-API-Generator-Demo](https://github.com/adventurewave-labs/AI-Kubernetes-API-Generator-Demo) | NL → Kubernetes API generation |
+
+---
+
+## FAQ
+
+**What is Adventure Wave Labs?**
+An open-source lab building developer tooling for the Claude and agentic AI ecosystem — CLIs, agentic loop runners, and code-intelligence tools used alongside Claude Code.
+
+**What is Turbo-Flow?**
+Turbo-Flow is AWL founder Marcus Patman's agentic development environment — 215+ MCP tools, cross-session memory, and per-agent git-worktree isolation, bootstrapped with one command on DevPod, Codespaces, or Rackspace Spot. See [marcuspat/turbo-flow](https://github.com/marcuspat/turbo-flow).
+
+**Is this tooling used in production?**
+Yes — `secret-scan` and `preflight-integration-tester` run in real CI/CD and pre-deploy pipelines; the rest of the toolchain is dogfooded daily inside Turbo-Flow itself.
+
 ---
 
 ## Stack
@@ -56,7 +81,9 @@ Rust · Shell · Python · Claude Code · MCP · Kubernetes · Terraform
 
 **Built & Presented by Adventure Wave Labs**
 
-Built by [Marcus Patman](https://github.com/marcuspat) — Principal Agentic Engineer  
+Built by [Marcus Patman](https://github.com/marcuspat) — Principal Agentic Engineer
 LATAM AI solutions at [creandotumatrix-labs](https://github.com/creandotumatrix-labs)
+
+📧 marcus@adventureonthewave.com · [adventurewavelabs.space](https://adventurewavelabs.space) · [LinkedIn](https://linkedin.com/in/marcuspatman) · [X @marcuspat](https://x.com/marcuspat) · [YouTube](https://youtube.com/@marcuspatmanagentics)
 
 </div>
