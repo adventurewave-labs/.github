@@ -24,6 +24,13 @@
 
 Adventure Wave Labs (AWL) is the open-source lab behind [Turbo-Flow](https://github.com/marcuspat/turbo-flow) and its supporting toolchain — CLIs, agentic loop runners, and code-intelligence engines that let a single engineer operate a full agentic development workflow on top of Claude Code. Everything here is Rust-first, MCP-native, and built to run in real terminals against real codebases — not demos.
 
+## The Turbo-Flow Stack
+
+| Tool | Stars | Lang | What it does |
+|---|---|---|---|
+| [**turbo-flow**](https://github.com/marcuspat/turbo-flow) | ⭐ 168 | Shell / Python | Full agentic development environment — 215+ MCP tools, cross-session memory (Beads), a code knowledge graph (GitNexus), and per-agent git-worktree isolation. One command deploys it on DevPod, Codespaces, or Rackspace Spot. Personal project of [Marcus Patman](https://github.com/marcuspat). |
+| [**tf-verify.sh**](https://github.com/marcuspat/turbo-flow/blob/main/devpods/tf-verify.sh) | — | Shell | Acceptance-gate verifier for the Turbo-Flow stack — 56 gates / 245 checks proving the environment is wired end-to-end: binaries, runtime versions, aliases, Beads (Dolt), GitNexus, worktrees, Ruflo plugins, AQE, MCP servers, and WASM bridges. `--diff` mode against the previous run, persisted JSON state, and per-gate remediation hints. Contributed by [Jan Lafko](https://github.com/lafinak). |
+
 ## What We Build
 
 ### DevOps / Infrastructure
