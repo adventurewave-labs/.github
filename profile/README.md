@@ -51,7 +51,6 @@ Autonomous agents and reliability tooling for Ansible-driven infrastructure. The
 | [codescope](https://github.com/adventurewave-labs/codescope) | Rust | Single-binary code intelligence engine for AI coding agents — tree-sitter, MCP, CLI |
 | [loopgen-rs](https://github.com/adventurewave-labs/loopgen-rs) | Rust | Agentic loop runner for Claude Code |
 | [preflight-integration-tester](https://github.com/adventurewave-labs/preflight-integration-tester) | Python | Pre-deploy integration test harness |
-| [turbo-flow-wizard](https://github.com/adventurewave-labs/turbo-flow-wizard) | Shell | Guided setup wizard for turbo-flow — interactive generator for project-specific CLAUDE.md configs |
 
 #### In motion
 
