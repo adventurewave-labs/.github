@@ -9,7 +9,7 @@
 
 **We build open-source developer tooling for the Claude and agentic AI ecosystem.**
 
-*Founded by the creator of [turbo-flow](https://github.com/marcuspat/turbo-flow) — the autonomous multi-agent dev environment used by engineers who ship like a team of one.*
+*Founded by the creator of [turbo-flow](https://github.com/marcuspat/turbo-flow) — an autonomous multi-agent dev environment built to let one engineer operate like a full team.*
 
 [![Website](https://img.shields.io/badge/Website-adventurewavelabs.space-2b2b2b?style=flat-square)](https://adventurewavelabs.space)
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-2b2b2b?style=flat-square&logo=linkedin&logoColor=0A66C2)](https://linkedin.com/in/marcuspatman)
@@ -46,21 +46,18 @@ Autonomous agents and reliability tooling for Ansible-driven infrastructure. The
 
 | Repo | Lang | What it does |
 |---|---|---|
-| [cloop](https://github.com/adventurewave-labs/cloop) | Rust | Agentic loops for Claude Code — zero-dependency CLI that wraps `claude --print` in a configurable loop until tests pass, a marker appears, or N iterations |
+| [loopgen-rs](https://github.com/adventurewave-labs/loopgen-rs) | Rust | Agentic loop runner for Claude Code — compiles a goal into a structured harness and drives `claude -p` around a PLAN → ACT → VERIFY → REPORT cycle until a parsed `LOOP_STATUS` contract trips: `DONE` (optionally gated on a real verify command), `BLOCKED`, or a hard `--max` iteration cap |
 | [secret-scan](https://github.com/adventurewave-labs/secret-scan) | Rust | Regex-based secret scanner for CI pipelines |
 | [codescope](https://github.com/adventurewave-labs/codescope) | Rust | Single-binary code intelligence engine for AI coding agents — tree-sitter, MCP, CLI |
-| [loopgen-rs](https://github.com/adventurewave-labs/loopgen-rs) | Rust | Agentic loop runner for Claude Code |
 | [preflight-integration-tester](https://github.com/adventurewave-labs/preflight-integration-tester) | Python | Pre-deploy integration test harness |
 
 #### In motion
 
-| [<img src="https://raw.githubusercontent.com/adventurewave-labs/cloop/main/cloop-demo.gif" width="420" height="340" alt="cloop wizard creating a fix-tests loop, then listing and showing it">](https://github.com/adventurewave-labs/cloop) | [<img src="https://raw.githubusercontent.com/adventurewave-labs/codescope/main/demo.gif" width="420" height="340" alt="codescope indexing itself and answering blast-radius queries">](https://github.com/adventurewave-labs/codescope) |
+| [<img src="https://raw.githubusercontent.com/adventurewave-labs/loopgen-rs/main/demo.gif" width="420" height="340" alt="loopgen rendering an agentic loop harness with --dry-run">](https://github.com/adventurewave-labs/loopgen-rs) | [<img src="https://raw.githubusercontent.com/adventurewave-labs/codescope/main/demo.gif" width="420" height="340" alt="codescope indexing itself and answering blast-radius queries">](https://github.com/adventurewave-labs/codescope) |
 |:---:|:---:|
-| *cloop — agentic loops for Claude Code* | *codescope — code intelligence for agents* |
-| [<img src="https://raw.githubusercontent.com/adventurewave-labs/secret-scan/main/docs/secretscan-demo.gif" width="420" height="340" alt="secretscan finding 6 planted secrets in a demo repo">](https://github.com/adventurewave-labs/secret-scan) | [<img src="https://raw.githubusercontent.com/adventurewave-labs/loopgen-rs/main/demo.gif" width="420" height="340" alt="loopgen rendering an agentic loop harness with --dry-run">](https://github.com/adventurewave-labs/loopgen-rs) |
-| *secret-scan — CI secret scanner* | *loopgen-rs — agentic loop runner* |
-| [<img src="https://raw.githubusercontent.com/adventurewave-labs/preflight-integration-tester/main/demo.gif" width="420" height="340" alt="preflight-integration-tester running a real readiness diagnostic — 97% GO, 3 middleware gaps found">](https://github.com/adventurewave-labs/preflight-integration-tester) | |
-| *preflight-integration-tester — AI readiness diagnostic* | |
+| *loopgen-rs — agentic loop runner* | *codescope — code intelligence for agents* |
+| [<img src="https://raw.githubusercontent.com/adventurewave-labs/secret-scan/main/docs/secretscan-demo.gif" width="420" height="340" alt="secretscan finding 6 planted secrets in a demo repo">](https://github.com/adventurewave-labs/secret-scan) | [<img src="https://raw.githubusercontent.com/adventurewave-labs/preflight-integration-tester/main/demo.gif" width="420" height="340" alt="preflight-integration-tester running a real readiness diagnostic — 97% GO, 3 middleware gaps found">](https://github.com/adventurewave-labs/preflight-integration-tester) |
+| *secret-scan — CI secret scanner* | *preflight-integration-tester — AI readiness diagnostic* |
 
 ### Lab / Demos
 
@@ -86,7 +83,7 @@ An open-source lab building developer tooling for the Claude and agentic AI ecos
 Turbo-Flow is AWL founder Marcus Patman's agentic development environment — 215+ MCP tools, cross-session memory, and per-agent git-worktree isolation, bootstrapped with one command on DevPod, Codespaces, or Rackspace Spot. See [marcuspat/turbo-flow](https://github.com/marcuspat/turbo-flow).
 
 **Is this tooling used in production?**
-Yes — `secret-scan` and `preflight-integration-tester` run in real CI/CD and pre-deploy pipelines; the rest of the toolchain is dogfooded daily inside Turbo-Flow itself.
+The toolchain is dogfooded daily inside Turbo-Flow, and most repos have their own CI (see each repo's Actions badge). `preflight-integration-tester` is explicitly marked **pre-alpha** in its own README — it's a real, working tool, just not yet positioned as a production dependency for outside teams.
 
 ---
 
@@ -94,7 +91,9 @@ Yes — `secret-scan` and `preflight-integration-tester` run in real CI/CD and p
 
 Rust · Shell · Python · Claude Code · MCP · Kubernetes · Terraform
 
-Founder-published crates on [crates.io](https://crates.io/users/marcuspat) — 11,000+ total downloads: [secretscan](https://crates.io/crates/secretscan) · [cargo-forge](https://crates.io/crates/cargo-forge) · [netrain](https://crates.io/crates/netrain) · [cargocrypt](https://crates.io/crates/cargocrypt) · [k8s-netinspect](https://crates.io/crates/k8s-netinspect) · [file-hasher](https://crates.io/crates/file-hasher)
+Founder-published crates on [crates.io](https://crates.io/users/marcuspat):
+
+[![secretscan downloads](https://img.shields.io/crates/d/secretscan?label=secretscan)](https://crates.io/crates/secretscan) [![cargo-forge downloads](https://img.shields.io/crates/d/cargo-forge?label=cargo-forge)](https://crates.io/crates/cargo-forge) [![netrain downloads](https://img.shields.io/crates/d/netrain?label=netrain)](https://crates.io/crates/netrain) [![cargocrypt downloads](https://img.shields.io/crates/d/cargocrypt?label=cargocrypt)](https://crates.io/crates/cargocrypt) [![k8s-netinspect downloads](https://img.shields.io/crates/d/k8s-netinspect?label=k8s-netinspect)](https://crates.io/crates/k8s-netinspect) [![file-hasher downloads](https://img.shields.io/crates/d/file-hasher?label=file-hasher)](https://crates.io/crates/file-hasher)
 
 ---
 
