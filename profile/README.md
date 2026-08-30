@@ -32,7 +32,7 @@ Autonomous agents and reliability tooling for Ansible-driven infrastructure. The
 
 <p align="center">
   <a href="https://github.com/adventurewave-labs/ansible-heal-agent">
-    <img src="https://raw.githubusercontent.com/adventurewave-labs/ansible-heal-agent/main/docs/demo.gif" alt="ansible-heal-agent demo — heals a broken baseline in 7 seconds" width="640">
+    <img src="https://raw.githubusercontent.com/adventurewave-labs/ansible-heal-agent/main/docs/demo.svg" alt="ansible-heal-agent demo — heals a broken baseline in 7 seconds" width="640">
   </a>
 </p>
 
@@ -40,7 +40,7 @@ Autonomous agents and reliability tooling for Ansible-driven infrastructure. The
 
 | Repo | Lang | What it does |
 |---|---|---|
-| [ansible-heal-agent](https://github.com/adventurewave-labs/ansible-heal-agent) | Python | Autonomous agent that scans Ansible logs, diagnoses routine failures (stale hostname, removed module, undefined variable), patches the playbook / inventory / vars, commits via conventional commits, and re-runs the pipeline. LLM-first (GLM-4-Plus via `z-ai-web-dev-sdk`) with a deterministic rule-based fallback, YAML validation before write, and a full Markdown transcript for human audit. `make demo` heals a broken baseline end-to-end in under 60 seconds. |
+| [ansible-heal-agent](https://github.com/adventurewave-labs/ansible-heal-agent) | Python | Autonomous agent that scans Ansible logs, diagnoses routine failures (stale hostname, removed module, undefined variable), patches the playbook / inventory / vars, commits via conventional commits, and re-runs the pipeline. LLM-first (GLM-4-Plus via `z-ai-web-dev-sdk`) with a deterministic rule-based fallback, YAML validation before write, and a full Markdown transcript for human audit. `make demo` heals a broken baseline end-to-end in about 7 seconds. |
 
 ### Developer Tooling
 
