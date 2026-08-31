@@ -104,6 +104,6 @@ Founder-published crates on [crates.io](https://crates.io/users/marcuspat):
 Built by [Marcus Patman](https://github.com/marcuspat) — Principal Agentic Engineer
 LATAM AI solutions at [creandotumatrix-labs](https://github.com/creandotumatrix-labs)
 
-📧 mmarcus@adventureonthewave.com · [adventurewavelabs.space](https://adventurewavelabs.space) · [LinkedIn](https://linkedin.com/in/marcuspatman) · [X @marcuspat](https://x.com/marcuspat) · [YouTube](https://youtube.com/@marcuspatmanagentics)
+📧 marcus@adventureonthewave.com · [adventurewavelabs.space](https://adventurewavelabs.space) · [LinkedIn](https://linkedin.com/in/marcuspatman) · [X @marcuspat](https://x.com/marcuspat) · [YouTube](https://youtube.com/@marcuspatmanagentics)
 
 </div>
