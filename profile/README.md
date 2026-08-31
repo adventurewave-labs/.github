@@ -80,7 +80,7 @@ Experiments, proofs of concept, and agentic demos.
 An open-source lab building developer tooling for the Claude and agentic AI ecosystem — CLIs, agentic loop runners, and code-intelligence tools used alongside Claude Code.
 
 **What is Turbo-Flow?**
-Turbo-Flow is AWL founder Marcus Patman's agentic development environment — 215+ MCP tools, cross-session memory, and per-agent git-worktree isolation, bootstrapped with one command on DevPod, Codespaces, or Rackspace Spot. See [marcuspat/turbo-flow](https://github.com/marcuspat/turbo-flow).
+Turbo-Flow is AWL founder Marcus Patman's agentic development environment — 215+ MCP tools, cross-session memory, and per-agent git-worktree isolation, bootstrapped with one command on DevPod, Codespaces, or Rackspace Spot. See [m[marcuspat/turbo-flow](https://github.com/marcuspat/turbo-flow).
 
 **Is this tooling used in production?**
 The toolchain is dogfooded daily inside Turbo-Flow, and most repos have their own CI (see each repo's Actions badge). `preflight-integration-tester` is explicitly marked **pre-alpha** in its own README — it's a real, working tool, just not yet positioned as a production dependency for outside teams.
