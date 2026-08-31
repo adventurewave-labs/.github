@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://i.ibb.co/N6m72sYQ/AWLabs.png" alt="Adventure Wave Labs" width="600">
+<img src="https://raw.githubusercontent.com/adventurewave-labs/.github/main/profile/AWLabs.webp" alt="Adventure Wave Labs" width="600">
 
 ![Adventure Wave Labs](https://img.shields.io/badge/Adventure_Wave_Labs-Builder-ff6b6b?style=for-the-badge)
 ![Claude](https://img.shields.io/badge/-Claude-2b2b2b?style=flat-square&logo=anthropic&logoColor=d4a27f)
