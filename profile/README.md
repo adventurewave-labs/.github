@@ -71,8 +71,8 @@ Experiments, proofs of concept, and agentic demos.
 | [agentic-platform-engineering-extravaganza](https://github.com/adventurewave-labs/agentic-platform-engineering-extravaganza) · [live demo](https://agentic-platform-engineering-extravaganza.vercel.app/) | Golden path + Score → Crossplane + real OPA policy gates + an authz-gated MCP server — 42 policy violations without a platform, 0 with one |
 | [aops-sre-pipeline](https://github.com/adventurewave-labs/aops-sre-pipeline) · [live demo](https://aops-sre-pipeline.vercel.app/) | Alert-driven autonomous SRE pipeline — Prometheus → n8n → Popeye → Dify-lite → Ollama → Slack |
 | [gitops-progressive-delivery-demo](https://github.com/adventurewave-labs/gitops-progressive-delivery-demo) · [live demo](https://gitops-progressive-delivery-demo.vercel.app/) | Argo CD + Argo Rollouts + Prometheus + K8sGPT progressive delivery — a canary trips an SLO violation, an AI SRE diagnoses it, and the rollout auto-rolls back in ~20s |
-| [moor](https://github.com/adventurewave-labs/moor) | Desired-state control plane for docker-compose — OBSERVE → DIFF → PLAN → ACT drift detection with real auto-remediation against the live Docker Engine API |
-| [cloudtrim](https://github.com/adventurewave-labs/cloudtrim) | 22-rule AWS cost-waste audit & remediation engine — read-only scan, verified fixes, and CUR-reconciled savings reporting demoed against a pinned AWS API emulator |
+| [moor](https://github.com/adventurewave-labs/moor) · [live demo](https://moor-devops-demo.vercel.app) | Desired-state control plane for docker-compose — OBSERVE → DIFF → PLAN → ACT drift detection with real auto-remediation against the live Docker Engine API ||
+| [cloudtrim](https://github.com/adventurewave-labs/cloudtrim) · [live demo](https://cloud-trim-demo.vercel.app/) | 22-rule AWS cost-waste audit & remediation engine — read-only scan, verified fixes, and CUR-reconciled savings reporting demoed against a pinned AWS API emulator |
 
 ---
 
