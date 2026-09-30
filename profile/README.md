@@ -47,7 +47,7 @@ Autonomous agents, reliability tooling, and infrastructure posture scanning. The
 
 <p align="center">
   <a href="https://github.com/adventurewave-labs/noip-scanner">
-    <img src="https://raw.githubusercontent.com/adventurewave-labs/noip-scanner/main/docs/demo.gif" alt="noip scanning a seeded kind cluster — live scan (score 35/100, 17 findings), --fail-on pipeline gate, evidence bundle + verify-bundle, Spanish report" width="640">
+    <img src="https://raw.githubusercontent.com/adventurewave-labs/noip-scanner/main/docs/demo.gif" alt="noip scanning a seeded kind cluster — live scan (score 35/100, 17 findings), --fail-on pipeline gate, evidence bundle + verify-bundle, ValidatingAdmissionPolicy generation, Spanish report" width="640">
   </a>
 </p>
 
