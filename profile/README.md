@@ -44,67 +44,23 @@ Autonomous agents and reliability tooling for Ansible-driven infrastructure. The
 
 ### Developer Tooling
 
-CLIs and engines that plug into the agentic workflow — a Kubernetes posture scanner, an agentic loop runner, a CI secret scanner, a code-intelligence engine, and a pre-deploy test harness. Each one shown doing real work against a real target.
-
-<p align="center">
-  <a href="https://github.com/adventurewave-labs/noip-scanner">
-    <img src="https://raw.githubusercontent.com/adventurewave-labs/noip-scanner/main/docs/demo.gif" alt="noip demo — demo scan, live kind-cluster scan, --fail-on pipeline gate, evidence bundle + verify-bundle, admission-policy generation, Spanish report" width="640">
-  </a>
-</p>
-
-<p align="center"><em>noip scans a seeded kind cluster end-to-end: demo scan, live scan (score 35/100, 17 findings), <code>--fail-on high</code> exiting <code>2</code> as a pipeline gate, evidence bundle + <code>verify-bundle</code>, ValidatingAdmissionPolicy generation, and a Spanish report.</em></p>
-
 | Repo | Lang | What it does |
 |---|---|---|
 | [noip-scanner](https://github.com/adventurewave-labs/noip-scanner) | TypeScript | NOIP — read-only Kubernetes posture scanner. 15 deterministic checks (pod security, NetworkPolicy, RBAC, CIS L1 workload subset) with NSA/CISA and NIST reference mappings; live cluster, offline manifest, or multi-context fleet scans; JSON / MD / SARIF / HTML reports in EN/ES; `--fail-on` pipeline gating; audit evidence bundles with DSSE signing; ValidatingAdmissionPolicy generation. Golden-tested against a real kind cluster in CI. |
-
-<p align="center">
-  <a href="https://github.com/adventurewave-labs/loopgen-rs">
-    <img src="https://raw.githubusercontent.com/adventurewave-labs/loopgen-rs/main/demo.gif" alt="loopgen rendering an agentic loop harness with --dry-run" width="640">
-  </a>
-</p>
-
-<p align="center"><em>loopgen-rs rendering an agentic loop harness with <code>--dry-run</code>.</em></p>
-
-| Repo | Lang | What it does |
-|---|---|---|
 | [loopgen-rs](https://github.com/adventurewave-labs/loopgen-rs) | Rust | Agentic loop runner for Claude Code — compiles a goal into a structured harness and drives `claude -p` around a PLAN → ACT → VERIFY → REPORT cycle until a parsed `LOOP_STATUS` contract trips: `DONE` (optionally gated on a real verify command), `BLOCKED`, or a hard `--max` iteration cap |
-
-<p align="center">
-  <a href="https://github.com/adventurewave-labs/secret-scan">
-    <img src="https://raw.githubusercontent.com/adventurewave-labs/secret-scan/main/docs/secretscan-demo.gif" alt="secret-scan finding 6 planted secrets in a demo repo" width="640">
-  </a>
-</p>
-
-<p align="center"><em>secret-scan finding 6 planted secrets in a demo repo.</em></p>
-
-| Repo | Lang | What it does |
-|---|---|---|
 | [secret-scan](https://github.com/adventurewave-labs/secret-scan) | Rust | Regex-based secret scanner for CI pipelines |
-
-<p align="center">
-  <a href="https://github.com/adventurewave-labs/codescope">
-    <img src="https://raw.githubusercontent.com/adventurewave-labs/codescope/main/demo.gif" alt="codescope indexing itself and answering blast-radius queries" width="640">
-  </a>
-</p>
-
-<p align="center"><em>codescope indexing itself and answering blast-radius queries.</em></p>
-
-| Repo | Lang | What it does |
-|---|---|---|
 | [codescope](https://github.com/adventurewave-labs/codescope) | Rust | Single-binary code intelligence engine for AI coding agents — tree-sitter, MCP, CLI |
-
-<p align="center">
-  <a href="https://github.com/adventurewave-labs/preflight-integration-tester">
-    <img src="https://raw.githubusercontent.com/adventurewave-labs/preflight-integration-tester/main/demo.gif" alt="preflight-integration-tester running a real readiness diagnostic — 97% GO, 3 middleware gaps found" width="640">
-  </a>
-</p>
-
-<p align="center"><em>preflight-integration-tester running a real readiness diagnostic — 97% GO, 3 middleware gaps found.</em></p>
-
-| Repo | Lang | What it does |
-|---|---|---|
 | [preflight-integration-tester](https://github.com/adventurewave-labs/preflight-integration-tester) | Python | Pre-deploy integration test harness |
+
+#### In motion
+
+| [<img src="https://raw.githubusercontent.com/adventurewave-labs/loopgen-rs/main/demo.gif" width="420" height="340" alt="loopgen rendering an agentic loop harness with --dry-run">](https://github.com/adventurewave-labs/loopgen-rs) | [<img src="https://raw.githubusercontent.com/adventurewave-labs/codescope/main/demo.gif" width="420" height="340" alt="codescope indexing itself and answering blast-radius queries">](https://github.com/adventurewave-labs/codescope) |
+|:---:|:---:|
+| *loopgen-rs — agentic loop runner* | *codescope — code intelligence for agents* |
+| [<img src="https://raw.githubusercontent.com/adventurewave-labs/secret-scan/main/docs/secretscan-demo.gif" width="420" height="340" alt="secretscan finding 6 planted secrets in a demo repo">](https://github.com/adventurewave-labs/secret-scan) | [<img src="https://raw.githubusercontent.com/adventurewave-labs/preflight-integration-tester/main/demo.gif" width="420" alt="preflight-integration-tester running a real readiness diagnostic — 97% GO, 3 middleware gaps found">](https://github.com/adventurewave-labs/preflight-integration-tester) |
+| *secret-scan — CI secret scanner* | *preflight-integration-tester — AI readiness diagnostic* |
+| [<img src="https://raw.githubusercontent.com/adventurewave-labs/noip-scanner/main/docs/demo.gif" width="420" alt="noip scanning a seeded kind cluster — live scan, --fail-on pipeline gate, evidence bundle + verify-bundle, Spanish report">](https://github.com/adventurewave-labs/noip-scanner) | |
+| *noip-scanner — Kubernetes posture scanner* | |
 
 ### Lab / Demos
 
