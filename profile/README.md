@@ -28,7 +28,7 @@ Adventure Wave Labs (AWL) is the open-source lab behind [Turbo-Flow](https://git
 
 ### DevOps / Infrastructure
 
-Autonomous agents and reliability tooling for Ansible-driven infrastructure. These projects sit between your CI/CD pipeline and your fleet — they watch, diagnose, and heal routine failures without human intervention.
+Autonomous agents, reliability tooling, and infrastructure posture scanning. These projects sit between your CI/CD pipeline and your fleet — they watch, diagnose, heal routine failures, and gate deployments on cluster posture without human intervention.
 
 <p align="center">
   <a href="https://github.com/adventurewave-labs/ansible-heal-agent">
@@ -41,14 +41,24 @@ Autonomous agents and reliability tooling for Ansible-driven infrastructure. The
 | Repo | Lang | What it does |
 |---|---|---|
 | [ansible-heal-agent](https://github.com/adventurewave-labs/ansible-heal-agent) | Python | Autonomous agent that scans Ansible logs, diagnoses routine failures (stale hostname, removed module, undefined variable), patches the playbook / inventory / vars, commits via conventional commits, and re-runs the pipeline. LLM-first (GLM-4-Plus via `z-ai-web-dev-sdk`) with a deterministic rule-based fallback, YAML validation before write, and a full Markdown transcript for human audit. `make demo` heals a broken baseline end-to-end in about 7 seconds. |
+| [noip-scanner](https://github.com/adventurewave-labs/noip-scanner) | TypeScript | NOIP — read-only Kubernetes posture scanner. 15 deterministic checks (pod security, NetworkPolicy, RBAC, CIS L1 workload subset) with NSA/CISA and NIST reference mappings; live cluster, offline manifest, or multi-context fleet scans; JSON / MD / SARIF / HTML reports in EN/ES; `--fail-on` pipeline gating; audit evidence bundles with DSSE signing; ValidatingAdmissionPolicy generation. Golden-tested against a real kind cluster in CI. |
+
+#### In motion
+
+<p align="center">
+  <a href="https://github.com/adventurewave-labs/noip-scanner">
+    <img src="https://raw.githubusercontent.com/adventurewave-labs/noip-scanner/main/docs/demo.gif" alt="noip scanning a seeded kind cluster — live scan (score 35/100, 17 findings), --fail-on pipeline gate, evidence bundle + verify-bundle, Spanish report" width="640">
+  </a>
+</p>
+
+<p align="center"><em>noip-scanner scanning a seeded kind cluster — live scan (score 35/100, 17 findings), <code>--fail-on</code> exiting <code>2</code> as a pipeline gate, evidence bundle + <code>verify-bundle</code>, ValidatingAdmissionPolicy generation, and a Spanish report.</em></p>
 
 ### Developer Tooling
 
-CLIs and engines that plug into the agentic workflow — a Kubernetes posture scanner, an agentic loop runner, a CI secret scanner, a code-intelligence engine, and a pre-deploy test harness. Each one shown doing real work against a real target in the grid below.
+CLIs and engines that plug into the agentic workflow — an agentic loop runner, a CI secret scanner, a code-intelligence engine, and a pre-deploy test harness. Each one shown doing real work against a real target in the grid below.
 
 | Repo | Lang | What it does |
 |---|---|---|
-| [noip-scanner](https://github.com/adventurewave-labs/noip-scanner) | TypeScript | NOIP — read-only Kubernetes posture scanner. 15 deterministic checks (pod security, NetworkPolicy, RBAC, CIS L1 workload subset) with NSA/CISA and NIST reference mappings; live cluster, offline manifest, or multi-context fleet scans; JSON / MD / SARIF / HTML reports in EN/ES; `--fail-on` pipeline gating; audit evidence bundles with DSSE signing; ValidatingAdmissionPolicy generation. Golden-tested against a real kind cluster in CI. |
 | [loopgen-rs](https://github.com/adventurewave-labs/loopgen-rs) | Rust | Agentic loop runner for Claude Code — compiles a goal into a structured harness and drives `claude -p` around a PLAN → ACT → VERIFY → REPORT cycle until a parsed `LOOP_STATUS` contract trips: `DONE` (optionally gated on a real verify command), `BLOCKED`, or a hard `--max` iteration cap |
 | [secret-scan](https://github.com/adventurewave-labs/secret-scan) | Rust | Regex-based secret scanner for CI pipelines |
 | [codescope](https://github.com/adventurewave-labs/codescope) | Rust | Single-binary code intelligence engine for AI coding agents — tree-sitter, MCP, CLI |
@@ -75,12 +85,6 @@ CLIs and engines that plug into the agentic workflow — a Kubernetes posture sc
     <td align="center">
       <a href="https://github.com/adventurewave-labs/preflight-integration-tester"><img src="https://raw.githubusercontent.com/adventurewave-labs/preflight-integration-tester/main/demo.gif" width="420" alt="preflight-integration-tester running a real readiness diagnostic — 97% GO, 3 middleware gaps found"></a><br>
       <em>preflight-integration-tester — AI readiness diagnostic</em>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" colspan="2">
-      <a href="https://github.com/adventurewave-labs/noip-scanner"><img src="https://raw.githubusercontent.com/adventurewave-labs/noip-scanner/main/docs/demo.gif" width="640" alt="noip scanning a seeded kind cluster — live scan (score 35/100, 17 findings), --fail-on pipeline gate, evidence bundle + verify-bundle, Spanish report"></a><br>
-      <em>noip-scanner — Kubernetes posture scanner: live kind scan, <code>--fail-on</code> gate, signed evidence bundles</em>
     </td>
   </tr>
 </table>
