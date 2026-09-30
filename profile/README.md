@@ -44,6 +44,8 @@ Autonomous agents and reliability tooling for Ansible-driven infrastructure. The
 
 ### Developer Tooling
 
+CLIs and engines that plug into the agentic workflow — a Kubernetes posture scanner, an agentic loop runner, a CI secret scanner, a code-intelligence engine, and a pre-deploy test harness. Each one shown doing real work against a real target in the grid below.
+
 | Repo | Lang | What it does |
 |---|---|---|
 | [noip-scanner](https://github.com/adventurewave-labs/noip-scanner) | TypeScript | NOIP — read-only Kubernetes posture scanner. 15 deterministic checks (pod security, NetworkPolicy, RBAC, CIS L1 workload subset) with NSA/CISA and NIST reference mappings; live cluster, offline manifest, or multi-context fleet scans; JSON / MD / SARIF / HTML reports in EN/ES; `--fail-on` pipeline gating; audit evidence bundles with DSSE signing; ValidatingAdmissionPolicy generation. Golden-tested against a real kind cluster in CI. |
@@ -54,13 +56,34 @@ Autonomous agents and reliability tooling for Ansible-driven infrastructure. The
 
 #### In motion
 
-| [<img src="https://raw.githubusercontent.com/adventurewave-labs/loopgen-rs/main/demo.gif" width="420" height="340" alt="loopgen rendering an agentic loop harness with --dry-run">](https://github.com/adventurewave-labs/loopgen-rs) | [<img src="https://raw.githubusercontent.com/adventurewave-labs/codescope/main/demo.gif" width="420" height="340" alt="codescope indexing itself and answering blast-radius queries">](https://github.com/adventurewave-labs/codescope) |
-|:---:|:---:|
-| *loopgen-rs — agentic loop runner* | *codescope — code intelligence for agents* |
-| [<img src="https://raw.githubusercontent.com/adventurewave-labs/secret-scan/main/docs/secretscan-demo.gif" width="420" height="340" alt="secretscan finding 6 planted secrets in a demo repo">](https://github.com/adventurewave-labs/secret-scan) | [<img src="https://raw.githubusercontent.com/adventurewave-labs/preflight-integration-tester/main/demo.gif" width="420" alt="preflight-integration-tester running a real readiness diagnostic — 97% GO, 3 middleware gaps found">](https://github.com/adventurewave-labs/preflight-integration-tester) |
-| *secret-scan — CI secret scanner* | *preflight-integration-tester — AI readiness diagnostic* |
-| [<img src="https://raw.githubusercontent.com/adventurewave-labs/noip-scanner/main/docs/demo.gif" width="420" alt="noip scanning a seeded kind cluster — live scan, --fail-on pipeline gate, evidence bundle + verify-bundle, Spanish report">](https://github.com/adventurewave-labs/noip-scanner) | |
-| *noip-scanner — Kubernetes posture scanner* | |
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <a href="https://github.com/adventurewave-labs/loopgen-rs"><img src="https://raw.githubusercontent.com/adventurewave-labs/loopgen-rs/main/demo.gif" width="420" alt="loopgen rendering an agentic loop harness with --dry-run"></a><br>
+      <em>loopgen-rs — agentic loop runner</em>
+    </td>
+    <td align="center" width="50%">
+      <a href="https://github.com/adventurewave-labs/codescope"><img src="https://raw.githubusercontent.com/adventurewave-labs/codescope/main/demo.gif" width="420" alt="codescope indexing itself and answering blast-radius queries"></a><br>
+      <em>codescope — code intelligence for agents</em>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/adventurewave-labs/secret-scan"><img src="https://raw.githubusercontent.com/adventurewave-labs/secret-scan/main/docs/secretscan-demo.gif" width="420" alt="secret-scan finding 6 planted secrets in a demo repo"></a><br>
+      <em>secret-scan — CI secret scanner</em>
+    </td>
+    <td align="center">
+      <a href="https://github.com/adventurewave-labs/preflight-integration-tester"><img src="https://raw.githubusercontent.com/adventurewave-labs/preflight-integration-tester/main/demo.gif" width="420" alt="preflight-integration-tester running a real readiness diagnostic — 97% GO, 3 middleware gaps found"></a><br>
+      <em>preflight-integration-tester — AI readiness diagnostic</em>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" colspan="2">
+      <a href="https://github.com/adventurewave-labs/noip-scanner"><img src="https://raw.githubusercontent.com/adventurewave-labs/noip-scanner/main/docs/demo.gif" width="640" alt="noip scanning a seeded kind cluster — live scan (score 35/100, 17 findings), --fail-on pipeline gate, evidence bundle + verify-bundle, Spanish report"></a><br>
+      <em>noip-scanner — Kubernetes posture scanner: live kind scan, <code>--fail-on</code> gate, signed evidence bundles</em>
+    </td>
+  </tr>
+</table>
 
 ### Lab / Demos
 
