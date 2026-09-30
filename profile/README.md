@@ -44,7 +44,7 @@ Autonomous agents and reliability tooling for Ansible-driven infrastructure. The
 
 ### Developer Tooling
 
-CLIs and engines that plug into the agentic workflow — a Kubernetes posture scanner, an agentic loop runner, a CI secret scanner, and a code-intelligence engine. Each one shown doing real work against a real target.
+CLIs and engines that plug into the agentic workflow — a Kubernetes posture scanner, an agentic loop runner, a CI secret scanner, a code-intelligence engine, and a pre-deploy test harness. Each one shown doing real work against a real target.
 
 <p align="center">
   <a href="https://github.com/adventurewave-labs/noip-scanner">
