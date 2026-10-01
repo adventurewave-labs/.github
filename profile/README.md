@@ -35,7 +35,7 @@ The successor to Turbo Flow — not more agents, but the harness that governs th
 | [**turbo-rig.com**](https://turbo-rig.com) | — | — | The product page: the full methodology — why builder ≠ reviewer, the three execution planes (laptop / VPS / Codespaces), and the eight-station loop that ends in a human merge. |
 | [**Deep-dive**](https://turbo-rig-deep-dive.vercel.app) | — | — | Technical walkthrough with 11 SVG diagrams — triangle, spine, planes, and loop, section by section. |
 | [**Deep-dive 3D**](https://turbo-rig-deep-dive-3d.vercel.app) | — | — | The same architecture as an explorable 3D scene — the loop, the triangle, the gate, the data gravity well, the planes, and the automation ring. |
-| [**7-Day Stats**](https://turbo-rig-stats-only-sept14-21.vercel.app) | — | — | One engine, seven days — Sept 14–21, 2026: 141 PRs merged across 5 repos, 868 gate verdicts (79% of them REVISE), 104 worktree lanes, 4.21B tokens, $416 total review spend. |
+| [**7-Day Stats**](https://turbo-rig-stats-only-sept14-21.vercel.app) | — | — | One engine, Sept 14–21, 2026: 141 PRs merged across 5 repos, 868 gate verdicts (79% of them REVISE), 104 worktree lanes, 4.21B tokens, $416 total review spend. |
 | [**Beta**](https://turbo-rig-beta.vercel.app) | — | — | Request access to the private repo during the beta. |
 
 ---
@@ -48,7 +48,7 @@ The successor to Turbo Flow — not more agents, but the harness that governs th
 | [turbo-flow-wizard](https://github.com/adventurewave-labs/turbo-flow-wizard) | ![](https://img.shields.io/github/stars/adventurewave-labs/turbo-flow-wizard?style=flat-square&label=%E2%AD%90) | Shell | Guided setup wizard for turbo-flow — interactive generator for project-specific CLAUDE.md configs. 12 app types, 7 methodologies, 19 feature sets. |
 | [loopgen](https://github.com/adventurewave-labs/loopgen-rs) | ![](https://img.shields.io/github/stars/adventurewave-labs/loopgen-rs?style=flat-square&label=%E2%AD%90) | Rust | Agentic loops for Claude Code — wizard, TOML configs, bash export, LOOP_STATUS protocol. Published on [crates.io](https://crates.io/crates/loopgen). |
 | [tf-verify.sh](https://github.com/marcuspat/turbo-flow/blob/main/devpods/tf-verify.sh) | — | Shell | 50+ quality gates across 12 verification phases — dependency integrity, deployment state, artifact validation, and environment checks. Bundled in turbo-flow `devpods/`. |
-| [turbo-brain-v2](https://github.com/adventurewave-labs/turbo-brain-v2) | — | Python / Shell | Owned knowledge vault for the agent stack — plain markdown in git, served read-only over MCP (`brain_search`, `brain_context`, `brain_verify`) to Claude Code, Cowork and Turbo Rig. Daily no-model triage, weekly budget-capped distill, monthly sweeps; every fact carries provenance citations agents can re-verify. *Private repo — v1.2.0.* |
+| [turbo-brain-v2](https://github.com/adventurewave-labs/turbo-brain-v2) | — | Python / Shell | The stack's knowledge vault — the same Turbo Brain v2 listed in the Turbo Rig Stack table above; one repo, serving Claude Code, Cowork and Turbo Flow over read-only MCP (`brain_search`, `brain_context`, `brain_verify`). *Private repo — v1.2.0.* |
 
 ### In motion
 
