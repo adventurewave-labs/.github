@@ -56,9 +56,9 @@ The successor to Turbo Flow — not more agents, but the harness that governs th
 |:---:|:---:|
 | *turbo-flow — real install, real tmux workspace, real claude launch* | *turbo-flow-wizard — interactive CLAUDE.md generator* |
 
-| [<img src="https://raw.githubusercontent.com/adventurewave-labs/loopgen-rs/main/demo.gif" width="650" alt="loopgen driving an agentic loop with --dry-run">](https://github.com/adventurewave-labs/loopgen-rs) |
-|:---:|
-| *loopgen — agentic loops for Claude Code: wizard, TOML, bash export* |
+| [<img src="https://raw.githubusercontent.com/adventurewave-labs/loopgen-rs/main/demo.gif" width="420" alt="loopgen driving an agentic loop with --dry-run">](https://github.com/adventurewave-labs/loopgen-rs) | [<img src="https://raw.githubusercontent.com/marcuspat/marcuspat/main/demos/turbo-brain-demo.gif" width="420" alt="turbo-brain 1.2.0 — doctor health panel all OK, selftest proving every gate fires, two cited brain_search queries served read-only over MCP stdio, and the retrieval eval passing at recall@5 1.000, MRR 0.969">](https://github.com/adventurewave-labs/turbo-brain-v2) |
+|:---:|:---:|
+| *loopgen — agentic loops for Claude Code: wizard, TOML, bash export* | *turbo-brain-v2 — the knowledge vault: doctor, gates firing, cited MCP search, eval* |
 
 ---
 
