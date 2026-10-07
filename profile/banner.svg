@@ -71,9 +71,9 @@
 
 <g transform="translate(600,308)">
 
-<path d="M-520 40 q60 -26 120 0 t120 0 t120 0 t120 0 t120 0 t120 0 t120 0 t120 0 t120 0 t120 0" fill="none" stroke="#e879f9" stroke-width="2.5" opacity="0.8"><animateTransform attributeName="transform" type="translate" values="0 0;-240 0" dur="5.0s" repeatCount="indefinite"/></path>
-<path d="M-520 52 q60 -20 120 0 t120 0 t120 0 t120 0 t120 0 t120 0 t120 0 t120 0 t120 0 t120 0" fill="none" stroke="#f472b6" stroke-width="2.5" opacity="0.5"><animateTransform attributeName="transform" type="translate" values="0 0;-240 0" dur="3.6s" repeatCount="indefinite"/></path>
-<path d="M-520 62 q60 -14 120 0 t120 0 t120 0 t120 0 t120 0 t120 0 t120 0 t120 0 t120 0 t120 0" fill="none" stroke="#8b3a62" stroke-width="2.5" opacity="0.35"><animateTransform attributeName="transform" type="translate" values="0 0;-240 0" dur="2.6s" repeatCount="indefinite"/></path>
+<path d="M-640 40 q60 -26 120 0 t120 0 t120 0 t120 0 t120 0 t120 0 t120 0 t120 0 t120 0 t120 0 t120 0 t120 0 t120 0 t120 0" fill="none" stroke="#e879f9" stroke-width="2.5" opacity="0.8"><animateTransform attributeName="transform" type="translate" values="0 0;-240 0" dur="5.0s" repeatCount="indefinite"/></path>
+<path d="M-640 52 q60 -20 120 0 t120 0 t120 0 t120 0 t120 0 t120 0 t120 0 t120 0 t120 0 t120 0 t120 0 t120 0 t120 0 t120 0" fill="none" stroke="#f472b6" stroke-width="2.5" opacity="0.5"><animateTransform attributeName="transform" type="translate" values="0 0;-240 0" dur="3.6s" repeatCount="indefinite"/></path>
+<path d="M-640 62 q60 -14 120 0 t120 0 t120 0 t120 0 t120 0 t120 0 t120 0 t120 0 t120 0 t120 0 t120 0 t120 0 t120 0 t120 0" fill="none" stroke="#8b3a62" stroke-width="2.5" opacity="0.35"><animateTransform attributeName="transform" type="translate" values="0 0;-240 0" dur="2.6s" repeatCount="indefinite"/></path>
 <g transform="translate(0,-18)">
 <path d="M-26 18 L0 -16 L26 18 Z" fill="#e879f9" opacity="0.9"/>
 <path d="M-26 18 L0 6 L26 18 Z" fill="#f0abfc"/>
