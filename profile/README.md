@@ -1,3 +1,5 @@
+<p align="center"><img src="banner.svg" alt="github-org — animated banner" width="100%"></p>
+
 <div align="center">
 
 <img src="https://raw.githubusercontent.com/adventurewave-labs/.github/main/profile/AWLabs.webp" alt="Adventure Wave Labs" width="600">
