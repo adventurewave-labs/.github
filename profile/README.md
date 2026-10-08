@@ -9,7 +9,7 @@
 
 **We build open-source developer tooling for the Claude and agentic AI ecosystem.**
 
-*Founded by the creator of [turbo-flow](https://github.com/marcuspat/turbo-flow) — an autonomous multi-agent dev environment built to let one engineer operate like a full team.*
+*Founded by [Marcus Patman](https://github.com/marcuspat) — creator of [Turbo Flow](https://github.com/marcuspat/turbo-flow) (versions 1–4 were a full multi-agent dev environment; v5 is the rules layer for AI-written code) and [Turbo Rig](https://turbo-rig.com), the lab's current agentic coding rig.*
 
 [![Website](https://img.shields.io/badge/Website-adventurewavelabs.space-2b2b2b?style=flat-square)](https://adventurewavelabs.space)
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-2b2b2b?style=flat-square&logo=linkedin&logoColor=0A66C2)](https://linkedin.com/in/marcuspatman)
@@ -40,11 +40,11 @@ The successor to Turbo Flow — not more agents, but the harness that governs th
 
 ---
 
-## The Turbo-Flow Stack - An Advanced Agentic Development Environment 
+## The Turbo-Flow Stack - The Rules Layer for AI-Written Code (v5)
 
 | Tool | Stars | Lang | Purpose |
 |---|---|---|---|
-| [turbo-flow](https://github.com/marcuspat/turbo-flow) | ![](https://img.shields.io/github/stars/marcuspat/turbo-flow?style=flat-square&label=%E2%AD%90) | Shell / Python | Full agentic dev environment — 215+ MCP tools (via [Ruflo v3.5](https://github.com/ruvnet/ruflo) by [ruvnet](https://github.com/ruvnet)), cross-session memory (Beads), codebase knowledge graph (GitNexus), per-agent git-worktree isolation. One command bootstraps on DevPod, Codespaces, or Rackspace Spot. Site: [turboflow.space](https://turboflow.space) · Academy: [Turbo Flow University](https://www.turboflowuniversity.space) |
+| [turbo-flow](https://github.com/marcuspat/turbo-flow) | ![](https://img.shields.io/github/stars/marcuspat/turbo-flow?style=flat-square&label=%E2%AD%90) | Shell / Python | Versions 1–4 (2025–2026): full agentic dev environment — 215+ MCP tools (via [Ruflo v3.5](https://github.com/ruvnet/ruflo) by [ruvnet](https://github.com/ruvnet)), cross-session memory (Beads), codebase knowledge graph (GitNexus), per-agent git-worktree isolation, one-command bootstrap on DevPod, Codespaces, or Rackspace Spot. Since v5: rig-lite — a portable bash-only governance kit (fail-closed cross-model review gate, constitution, git-versioned memory) for any repo and any coding agent. Site: [turboflow.space](https://turboflow.space) · Academy: [Turbo Flow University](https://www.turboflowuniversity.space) |
 | [turbo-flow-wizard](https://github.com/adventurewave-labs/turbo-flow-wizard) | ![](https://img.shields.io/github/stars/adventurewave-labs/turbo-flow-wizard?style=flat-square&label=%E2%AD%90) | Shell | Guided setup wizard for turbo-flow — interactive generator for project-specific CLAUDE.md configs. 12 app types, 7 methodologies, 19 feature sets. |
 | [loopgen](https://github.com/adventurewave-labs/loopgen-rs) | ![](https://img.shields.io/github/stars/adventurewave-labs/loopgen-rs?style=flat-square&label=%E2%AD%90) | Rust | Agentic loops for Claude Code — wizard, TOML configs, bash export, LOOP_STATUS protocol. Published on [crates.io](https://crates.io/crates/loopgen). |
 | [tf-verify.sh](https://github.com/marcuspat/turbo-flow/blob/main/devpods/tf-verify.sh) | — | Shell | 50+ quality gates across 12 verification phases — dependency integrity, deployment state, artifact validation, and environment checks. Bundled in turbo-flow `devpods/`. |
@@ -150,7 +150,7 @@ Experiments, proofs of concept, and agentic demos.
 An open-source lab building developer tooling for the Claude and agentic AI ecosystem — CLIs, agentic loop runners, and code-intelligence tools used alongside Claude Code.
 
 **What is Turbo-Flow?**
-Turbo-Flow is AWL founder Marcus Patman's agentic development environment — 215+ MCP tools, cross-session memory, and per-agent git-worktree isolation, bootstrapped with one command on DevPod, Codespaces, or Rackspace Spot. See [m[marcuspat/turbo-flow](https://github.com/marcuspat/turbo-flow).
+Turbo-Flow is Marcus Patman's open-source project (MIT). Versions 1–4 (2025–2026) were an agentic development environment — 215+ MCP tools, cross-session memory, per-agent git-worktree isolation. Since v5 it is the rules layer for AI-written code: rig-lite, a portable bash-only governance kit that works in any repo with any coding agent. See [marcuspat/turbo-flow](https://github.com/marcuspat/turbo-flow).
 
 **Is this tooling used in production?**
 The toolchain is dogfooded daily inside Turbo-Flow, and most repos have their own CI (see each repo's Actions badge). `preflight-integration-tester` is explicitly marked **pre-alpha** in its own README — it's a real, working tool, just not yet positioned as a production dependency for outside teams.
