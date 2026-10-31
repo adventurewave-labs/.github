@@ -9,7 +9,7 @@
 
 **We build open-source developer tooling for the Claude and agentic AI ecosystem.**
 
-*Founded by [Marcus Patman](https://github.com/marcuspat) — creator of [Turbo Flow](https://github.com/marcuspat/turbo-flow) (versions 1–4 were a full multi-agent dev environment; v5 is the rules layer for AI-written code) and [Turbo Rig](https://turbo-rig.com), the lab's current agentic coding rig.*
+*Founded by [Marcus Patman](https://github.com/marcuspat) — creator of [Turbo Flow](https://github.com/marcuspat/turbo-flow), a developer tool that is the rules layer for AI-written code, and [Turbo Rig](https://turbo-rig.com), the lab's DevOps tool for AI coding agents.*
 
 [![Website](https://img.shields.io/badge/Website-adventurewavelabs.space-2b2b2b?style=flat-square)](https://adventurewavelabs.space)
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-2b2b2b?style=flat-square&logo=linkedin&logoColor=0A66C2)](https://linkedin.com/in/marcuspatman)
@@ -24,13 +24,13 @@
 
 Adventure Wave Labs (AWL) is the open-source lab behind [Turbo-Flow](https://github.com/marcuspat/turbo-flow) and its supporting toolchain — CLIs, agentic loop runners, and code-intelligence engines that let a single engineer operate a full agentic development workflow on top of Claude Code. Everything here is Rust-first, MCP-native, and built to run in real terminals against real codebases — not demos.
 
-## The Turbo Rig Stack - A Complete Agentic System
+## The Turbo Rig Stack — A DevOps Tool for AI Coding Agents
 
-The successor to Turbo Flow — not more agents, but the harness that governs them: **Triangle + Spine + Loop**. Swappable lanes (builder / reviewer / reserve) under one shared constitution, a review gate **cross-checked across model families** with fail-closed verdicts, worktree isolation for parallel writers, git-versioned cross-session memory — and the merge button always in human hands.
+Turbo Rig is a **DevOps tool for AI coding agents** — it runs coding agents the way production is already run: a cross-model review gate as the pipeline check, merges held by humans, secrets in the keychain, scheduled automations, and state in git. Not more agents, but the harness that governs them: **Triangle + Spine + Loop**. Swappable lanes (builder / reviewer / reserve) under one shared constitution, a review gate **cross-checked across model families** with fail-closed verdicts, worktree isolation for parallel writers, git-versioned cross-session memory — and the merge button always in human hands.
 
 | Tool | Stars | Lang | Purpose |
 |---|---|---|---|
-| [**turbo-rig**](https://github.com/marcuspat/turbo-rig) | — | Shell / Python | The full rig: a ten-law constitution, `review.sh` — the review gate with token accounting, `wt.sh` worktrees, `secret.sh` keychain, git-versioned `memory/`, specs and runbooks. One command installs and wires it all. *Private repo — beta.* |
+| [**turbo-rig**](https://github.com/marcuspat/turbo-rig) | — | Shell / Python | The full rig — a DevOps tool for AI coding agents: an eleven-law constitution, `review.sh` — the review gate with token accounting, `wt.sh` worktrees, `secret.sh` keychain, git-versioned `memory/`, scheduled automations, specs and runbooks. One command installs and wires it all. *Private repo — beta.* |
 | [**rust-utils**](https://github.com/marcuspat/turbo-rig/tree/main/rust-utils) | — | Rust | The rig's Rust edge tools — one binary per problem, the working bash cores untouched: `gate-run` (the push runs inside the verdict, so a pipe can never ship a REVISE), `strand` (read-only detector for commits stranded by early merges — merge-commit and squash aware), and `bead` (a SQLite bead queue with token-bound atomic claims and bounded retries). *In the private turbo-rig repo.* |
 | [**Turbo Brain v2**](https://github.com/adventurewave-labs/turbo-brain-v2) | — | Python / Shell | The rig's memory plane — an owned context vault: plain markdown in git, served read-only over MCP so a session starts with the context it needs instead of asking for it. Capture is a pure text PUT; schema lint, secret scan, client deny-list and agent-poison tripwires gate what enters, and budget-capped distill waves land as PRs under a protected main. *Private repo — v1.2.0.* |
 | [**turbo-rig.com**](https://turbo-rig.com) | — | — | The product page: the full methodology — why builder ≠ reviewer, the three execution planes (laptop / VPS / Codespaces), and the eight-station loop that ends in a human merge. |
@@ -39,11 +39,11 @@ The successor to Turbo Flow — not more agents, but the harness that governs th
 
 ---
 
-## The Turbo-Flow Stack - The Rules Layer for AI-Written Code (v5)
+## The Turbo-Flow Stack — A Developer Tool for AI-Written Code (v5)
 
 | Tool | Stars | Lang | Purpose |
 |---|---|---|---|
-| [turbo-flow](https://github.com/marcuspat/turbo-flow) | ![](https://img.shields.io/github/stars/marcuspat/turbo-flow?style=flat-square&label=%E2%AD%90) | Shell / Python | Versions 1–4 (2025–2026): full agentic dev environment — 215+ MCP tools (via [Ruflo v3.5](https://github.com/ruvnet/ruflo) by [ruvnet](https://github.com/ruvnet)), cross-session memory (Beads), codebase knowledge graph (GitNexus), per-agent git-worktree isolation, one-command bootstrap on DevPod, Codespaces, or Rackspace Spot. Since v5: rig-lite — a portable bash-only governance kit (fail-closed cross-model review gate, constitution, git-versioned memory) for any repo and any coding agent. Site: [turboflow.space](https://turboflow.space) · Academy: [Turbo Flow University](https://www.turboflowuniversity.space) |
+| [turbo-flow](https://github.com/marcuspat/turbo-flow) | ![](https://img.shields.io/github/stars/marcuspat/turbo-flow?style=flat-square&label=%E2%AD%90) | Shell / Python | A developer tool — the rules layer for AI-written code. Versions 1–4 (2025–2026): full agentic dev environment — 215+ MCP tools (via [Ruflo v3.5](https://github.com/ruvnet/ruflo) by [ruvnet](https://github.com/ruvnet)), cross-session memory (Beads), codebase knowledge graph (GitNexus), per-agent git-worktree isolation, one-command bootstrap on DevPod, Codespaces, or Rackspace Spot. Since v5: rig-lite — a portable bash-only governance kit (fail-closed cross-model review gate, constitution, git-versioned memory) for any repo and any coding agent. Site: [turboflow.online](https://www.turboflow.online) · Academy: [Turbo Flow University](https://www.turboflowuniversity.space) |
 | [turbo-flow-wizard](https://github.com/adventurewave-labs/turbo-flow-wizard) | ![](https://img.shields.io/github/stars/adventurewave-labs/turbo-flow-wizard?style=flat-square&label=%E2%AD%90) | Shell | Guided Interactive generator for project-specific CLAUDE.md configs. 12 app types, 7 methodologies, 19 feature sets. |
 | [loopgen-rs](https://github.com/adventurewave-labs/loopgen-rs) | ![](https://img.shields.io/github/stars/adventurewave-labs/loopgen-rs?style=flat-square&label=%E2%AD%90) | Rust | Agentic loop runner for Claude Code — compiles a goal into a structured harness and drives `claude -p` around a PLAN → ACT → VERIFY → REPORT cycle until a parsed `LOOP_STATUS` contract trips: `DONE` (optionally gated on a real verify command), `BLOCKED`, or a hard `--max` iteration cap |
 | [gate-run](https://github.com/adventurewave-labs/gate-run) | ![](https://img.shields.io/github/stars/adventurewave-labs/gate-run?style=flat-square&label=%E2%AD%90) | Rust | Edge tools for gated flows: gate-run runs your review gate with the push inside the verdict — a pipe can never ship a REVISE; strand detects commits stranded by early merges (merge-commit and squash aware, read-only) |
