@@ -9,7 +9,7 @@
 
 **We build open-source developer tooling for the Claude and agentic AI ecosystem.**
 
-*Founded by [Marcus Patman](https://github.com/marcuspat) — creator of [Turbo Flow](https://github.com/marcuspat/turbo-flow), a developer tool: the rules layer for AI-written code, and [Turbo Rig](https://turbo-rig.com), the lab's DevOps tool for AI coding agents.*
+*Founded by [Marcus Patman](https://github.com/marcuspat) — creator of [Turbo Flow](https://github.com/marcuspat/turbo-flow), a developer tool that is the rules layer for AI-written code, and [Turbo Rig](https://turbo-rig.com), the lab's DevOps tool for AI coding agents.*
 
 [![Website](https://img.shields.io/badge/Website-adventurewavelabs.space-2b2b2b?style=flat-square)](https://adventurewavelabs.space)
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-2b2b2b?style=flat-square&logo=linkedin&logoColor=0A66C2)](https://linkedin.com/in/marcuspatman)
