@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="280" viewBox="0 0 840 280" role="img" aria-label="Turbo Rig: a triangle of builder, reviewer and reserve lanes inside the loop, on a constitution spine. Cross-model review gate, fail-closed verdicts, merge stays human.">
+<title>The Turbo Rig Stack — Triangle + Spine + Loop</title>
+<defs>
+<filter id="trglow" x="-120%" y="-120%" width="340%" height="340%"><feGaussianBlur stdDeviation="3"/></filter>
+<radialGradient id="traur"><stop offset="0" stop-color="#22d3ee" stop-opacity="0.16"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
+<radialGradient id="traur2"><stop offset="0" stop-color="#7c3aed" stop-opacity="0.14"/><stop offset="1" stop-color="#7c3aed" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="840" height="280" rx="12" fill="#04060c" stroke="#10161f"/>
+<ellipse cx="230" cy="90" rx="260" ry="140" fill="url(#traur)">
+<animateTransform attributeName="transform" type="translate" values="0 0; 40 18; -24 10; 0 0" dur="24s" repeatCount="indefinite"/>
+</ellipse>
+<ellipse cx="640" cy="200" rx="280" ry="150" fill="url(#traur2)">
+<animateTransform attributeName="transform" type="translate" values="0 0; -36 14; 20 -10; 0 0" dur="30s" repeatCount="indefinite"/>
+</ellipse>
+<g>
+<circle cx="80" cy="46" r="1.2" fill="#dbe7ff"><animate attributeName="opacity" values="0.08;0.8;0.08" dur="3.2s" repeatCount="indefinite"/></circle>
+<circle cx="770" cy="60" r="1.6" fill="#dbe7ff"><animate attributeName="opacity" values="0.08;0.8;0.08" dur="2.9s" begin="-1.4s" repeatCount="indefinite"/></circle>
+<circle cx="740" cy="238" r="1.2" fill="#dbe7ff"><animate attributeName="opacity" values="0.08;0.8;0.08" dur="3.9s" begin="-2.1s" repeatCount="indefinite"/></circle>
+<circle cx="120" cy="236" r="1.4" fill="#dbe7ff"><animate attributeName="opacity" values="0.08;0.8;0.08" dur="3.5s" begin="-0.6s" repeatCount="indefinite"/></circle>
+</g>
+<text x="36" y="34" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="3" fill="#22d3ee">TURBO-RIG &#183; DEVOPS FOR AI CODING AGENTS</text>
+
+<!-- the loop (ring) -->
+<ellipse cx="420" cy="148" rx="168" ry="118" fill="none" stroke="#22d3ee" stroke-width="1.5" stroke-opacity="0.4" stroke-dasharray="3 9">
+<animate attributeName="stroke-dashoffset" from="0" to="-48" dur="6s" repeatCount="indefinite"/>
+</ellipse>
+
+<!-- the spine -->
+<line x1="420" y1="26" x2="420" y2="272" stroke="#a78bfa" stroke-width="1.5" stroke-opacity="0.5" stroke-dasharray="5 7">
+<animate attributeName="stroke-dashoffset" from="0" to="-24" dur="2.2s" repeatCount="indefinite"/>
+</line>
+<rect x="346" y="178" width="148" height="38" fill="#04060c" opacity="0.85"/>
+
+<!-- the triangle -->
+<path d="M420,66 L512,218 L328,218 Z" fill="none" stroke="#30363d" stroke-width="1.5"/>
+<path d="M420,66 L512,218 L328,218 Z" fill="none" stroke="#e6edf3" stroke-width="1.5" stroke-opacity="0.25" stroke-dasharray="4 10">
+<animate attributeName="stroke-dashoffset" from="0" to="-28" dur="2s" repeatCount="indefinite"/>
+</path>
+
+<!-- vertex halos -->
+<circle cx="420" cy="66" r="26" fill="none" stroke="#22d3ee" stroke-width="1.5"><animate attributeName="opacity" values="0.08;0.7;0.08" dur="7s" begin="0s" repeatCount="indefinite"/></circle>
+<circle cx="512" cy="218" r="26" fill="none" stroke="#a78bfa" stroke-width="1.5"><animate attributeName="opacity" values="0.08;0.7;0.08" dur="7s" begin="2.33s" repeatCount="indefinite"/></circle>
+<circle cx="328" cy="218" r="26" fill="none" stroke="#58a6ff" stroke-width="1.5"><animate attributeName="opacity" values="0.08;0.7;0.08" dur="7s" begin="4.67s" repeatCount="indefinite"/></circle>
+
+<!-- vertex nodes -->
+<circle cx="420" cy="66" r="16" fill="#0d1117" stroke="#22d3ee" stroke-width="2"/>
+<circle cx="512" cy="218" r="16" fill="#0d1117" stroke="#a78bfa" stroke-width="2"/>
+<circle cx="328" cy="218" r="16" fill="#0d1117" stroke="#58a6ff" stroke-width="2"/>
+<g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#e6edf3" text-anchor="middle">
+<text x="420" y="70">B</text>
+<text x="512" y="222">Rv</text>
+<text x="328" y="222">Rs</text>
+</g>
+
+<!-- traveling dot around the triangle -->
+<circle r="3.5" fill="#ffffff" filter="url(#trglow)"><animateMotion dur="7s" begin="-2.5s" repeatCount="indefinite" path="M420,66 L512,218 L328,218 Z"/></circle>
+<!-- counter-dot around the ring -->
+<circle r="3" fill="#22d3ee" filter="url(#trglow)"><animateMotion dur="11s" begin="-4s" repeatCount="indefinite" path="M588,148 A 168,118 0 1,1 252,148 A 168,118 0 1,1 588,148"/></circle>
+
+<!-- center -->
+<text x="420" y="196" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="2" fill="#22d3ee">CONSTITUTION</text>
+<text x="420" y="211" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" fill="#6e7681">eleven laws</text>
+
+<!-- lane labels -->
+<g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#8b949e" text-anchor="middle">
+<text x="420" y="22" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#8b949e" text-anchor="middle">builder</text>
+<text x="536" y="246">reviewer</text>
+<text x="304" y="246">reserve</text>
+</g>
+
+<!-- corner captions -->
+<g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" fill="#6e7681">
+<text x="36" y="132">cross-model gate</text>
+<text x="36" y="148">fail-closed verdicts</text>
+<text x="804" y="132" text-anchor="end">worktree isolation</text>
+<text x="804" y="148" text-anchor="end">merge stays human</text>
+</g>
+</svg>

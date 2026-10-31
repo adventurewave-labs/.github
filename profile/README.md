@@ -26,6 +26,10 @@ Adventure Wave Labs (AWL) is the open-source lab behind [Turbo-Flow](https://git
 
 ## The Turbo Rig Stack — A DevOps Tool for AI Coding Agents
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/adventurewave-labs/.github/main/profile/turbo-rig-stack.svg" width="840" alt="Turbo Rig — a DevOps tool for AI coding agents: Triangle + Spine + Loop, builder, reviewer and reserve lanes on a constitution spine, inside the loop. Cross-model gate, fail-closed verdicts, merge stays human.">
+</p>
+
 Turbo Rig is a **DevOps tool for AI coding agents** — it runs coding agents the way production is already run: a cross-model review gate as the pipeline check, merges held by humans, secrets in the keychain, scheduled automations, and state in git. Not more agents, but the harness that governs them: **Triangle + Spine + Loop**. Swappable lanes (builder / reviewer / reserve) under one shared constitution, a review gate **cross-checked across model families** with fail-closed verdicts, worktree isolation for parallel writers, git-versioned cross-session memory — and the merge button always in human hands.
 
 | Tool | Stars | Lang | Purpose |
@@ -40,6 +44,10 @@ Turbo Rig is a **DevOps tool for AI coding agents** — it runs coding agents th
 ---
 
 ## The Turbo-Flow Stack — A Developer Tool for AI-Written Code (v5)
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/adventurewave-labs/.github/main/profile/turbo-flow-stack.svg" width="840" alt="Turbo Flow — a developer tool, the rules layer: a builder from any family runs free deterministic checks, a reviewer from a different model family gates the change, the verdict flips REVISE to APPROVED, and only a human merges to main.">
+</p>
 
 | Tool | Stars | Lang | Purpose |
 |---|---|---|---|
