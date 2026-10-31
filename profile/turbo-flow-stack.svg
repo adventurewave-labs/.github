@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="260" viewBox="0 0 840 260" role="img" aria-label="Turbo Flow, the rules layer: a builder from any family runs free deterministic checks, a reviewer from a different model family gates the change, the verdict flips REVISE to APPROVED, and only a human merges to main.">
+<title>The Turbo-Flow Stack — the rules layer</title>
+<defs>
+<filter id="tfglow" x="-120%" y="-120%" width="340%" height="340%"><feGaussianBlur stdDeviation="3"/></filter>
+<radialGradient id="tfaur"><stop offset="0" stop-color="#22d3ee" stop-opacity="0.14"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="840" height="260" rx="12" fill="#04060c" stroke="#10161f"/>
+<ellipse cx="420" cy="130" rx="320" ry="130" fill="url(#tfaur)">
+<animateTransform attributeName="transform" type="translate" values="0 0; 36 12; -22 8; 0 0" dur="26s" repeatCount="indefinite"/>
+</ellipse>
+<g>
+<circle cx="70" cy="40" r="1.2" fill="#dbe7ff"><animate attributeName="opacity" values="0.08;0.8;0.08" dur="3.4s" repeatCount="indefinite"/></circle>
+<circle cx="800" cy="46" r="1.4" fill="#dbe7ff"><animate attributeName="opacity" values="0.08;0.8;0.08" dur="2.9s" begin="-1.3s" repeatCount="indefinite"/></circle>
+<circle cx="770" cy="226" r="1.2" fill="#dbe7ff"><animate attributeName="opacity" values="0.08;0.8;0.08" dur="4.1s" begin="-2.4s" repeatCount="indefinite"/></circle>
+<circle cx="120" cy="216" r="1.2" fill="#dbe7ff"><animate attributeName="opacity" values="0.08;0.8;0.08" dur="3.6s" begin="-0.9s" repeatCount="indefinite"/></circle>
+</g>
+<text x="36" y="34" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="3" fill="#22d3ee">TURBO-FLOW &#183; A DEVELOPER TOOL</text>
+
+<!-- connectors -->
+<line x1="206" y1="116" x2="246" y2="116" stroke="#30363d" stroke-width="1.5" stroke-dasharray="4 6"><animate attributeName="stroke-dashoffset" from="0" to="-20" dur="1.4s" repeatCount="indefinite"/></line>
+<line x1="396" y1="116" x2="436" y2="116" stroke="#30363d" stroke-width="1.5" stroke-dasharray="4 6"><animate attributeName="stroke-dashoffset" from="0" to="-20" dur="1.4s" repeatCount="indefinite"/></line>
+<line x1="606" y1="116" x2="630" y2="116" stroke="#30363d" stroke-width="1.5" stroke-dasharray="4 6"><animate attributeName="stroke-dashoffset" from="0" to="-20" dur="1.4s" repeatCount="indefinite"/></line>
+<line x1="722" y1="116" x2="744" y2="116" stroke="#3fb950" stroke-width="1.5" stroke-opacity="0.6"/>
+<polyline points="737,110 745,116 737,122" fill="none" stroke="#3fb950" stroke-width="1.5"/>
+
+<!-- builder -->
+<rect x="36" y="92" width="170" height="48" rx="10" fill="#0d1117" stroke="#22d3ee" stroke-width="1.5" stroke-opacity="0.8">
+<animate attributeName="stroke-opacity" values="0.8;0.4;0.8" dur="3s" repeatCount="indefinite"/>
+</rect>
+<text x="121" y="113" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#e6edf3">builder</text>
+<text x="121" y="130" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9" fill="#6e7681">any family</text>
+
+<!-- deterministic checks -->
+<rect x="246" y="92" width="150" height="48" rx="10" fill="#0d1117" stroke="#58a6ff" stroke-width="1.5" stroke-opacity="0.8"/>
+<g stroke="#58a6ff" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round">
+<path d="M262,108 L265,111 L270,105.5"/>
+<path d="M262,118 L265,121 L270,115.5"/>
+<path d="M262,128 L265,131 L270,125.5"/>
+</g>
+<line x1="278" y1="108" x2="380" y2="108" stroke="#30363d" stroke-width="1.2"/>
+<line x1="278" y1="118" x2="366" y2="118" stroke="#30363d" stroke-width="1.2"/>
+<line x1="278" y1="128" x2="373" y2="128" stroke="#30363d" stroke-width="1.2"/>
+<text x="330" y="102" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9" fill="#6e7681">deterministic &#183; $0</text>
+
+<!-- cross-family reviewer gate -->
+<rect x="436" y="92" width="170" height="48" rx="10" fill="#0d1117" stroke="#f0883e" stroke-width="2">
+<animate attributeName="stroke-opacity" values="1;0.45;1" dur="2.6s" repeatCount="indefinite"/>
+</rect>
+<g stroke="#f0883e" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round">
+<path d="M448,103 L455,106 L455,112 C455,117 448,120 448,120 C448,120 441,117 441,112 L441,106 Z"/>
+<path d="M444.5,111 L447.5,114 L452,108.5"/>
+</g>
+<text x="524" y="113" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#e6edf3">reviewer</text>
+<text x="524" y="130" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9" fill="#6e7681">different family</text>
+
+<!-- verdict flip -->
+<g>
+<rect x="630" y="103" width="92" height="26" rx="13" fill="#0d1117" stroke="#f85149" stroke-width="1.6"/>
+<text x="676" y="120" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="bold" fill="#f85149">REVISE</text>
+<animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.42;0.5;0.92;1" dur="5s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<rect x="630" y="103" width="92" height="26" rx="13" fill="#0d1117" stroke="#3fb950" stroke-width="1.6"/>
+<text x="676" y="120" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="bold" fill="#3fb950">APPROVED</text>
+<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.42;0.5;0.92;1" dur="5s" repeatCount="indefinite"/>
+</g>
+
+<!-- main -->
+<rect x="744" y="92" width="76" height="48" rx="10" fill="#0d1117" stroke="#3fb950" stroke-width="2"/>
+<text x="782" y="113" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" font-weight="bold" fill="#3fb950">main</text>
+<text x="782" y="130" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9" fill="#6e7681">human</text>
+
+<!-- tagline -->
+<text x="420" y="190" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="2" fill="#8b949e">BRING YOUR OWN HARNESS &#183; BASH ONLY</text>
+<text x="420" y="212" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="2" fill="#8b949e">RIG-LITE &#183; ANY REPO</text>
+</svg>
